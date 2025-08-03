@@ -19,6 +19,17 @@
     margin-bottom: 20px;
 }
 
+.nav-a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-a:hover {
+    color: #f82828;
+    transition: 0.3s;
+}
+
+
 .nav-ul {
     display: flex;
     gap: 25px;
@@ -30,6 +41,9 @@
     font-weight: 900;
 }
 
+.nav-ul li:hover {
+    color: #f82828;
+}
 
 .btn {
     background: rgba(248, 40, 40, 0.9);
@@ -40,6 +54,14 @@
     text-transform: capitalize;
     border-radius: 6px;
     margin-top: 50px;
+    transition: all 0.3s ease;
+}
+
+
+.btn:hover {
+    background: transparent;
+    color: #f82828;
+    border: 2px solid #f82828;
 }
 
 .nav-ul li a {
@@ -49,6 +71,10 @@
 .img-text {
     margin-right: 30%;
     font-size: 40px;
+}
+
+.img-text:hover {
+    color: rgb(242, 67, 67);
 }
 
 .nav-img {
@@ -208,7 +234,8 @@ li {
     width: 12%;
     border-radius: 10px;
     border: 2px solid black;
-    height: 40px;
+    height: 60px;
+    transition: background-color 0.3s ease;
 }
 
 .low-btn2 {
@@ -216,7 +243,18 @@ li {
     width: 12%;
     border-radius: 10px;
     border: 2px solid black;
-    height: 40px;
+    height: 60px;
+    transition: background-color 0.3s ease;
+}
+
+.low-btn1:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.low-btn2:hover {
+    background-color: red;
+    cursor: pointer;
 }
 
 .low-a1 {
