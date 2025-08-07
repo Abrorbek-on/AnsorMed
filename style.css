@@ -273,3 +273,166 @@ li {
     right: 0;
     width: 400px;
 }
+
+@media (max-width: 992px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .nav-toggle {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .nav-ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-ul.show {
+        display: flex;
+    }
+
+    .nav-ul li a {
+        margin-left: 0;
+    }
+
+    .nav-img {
+        width: 70px;
+    }
+
+    .img-text {
+        font-size: 28px;
+        margin-right: 0;
+    }
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        align-items: center;
+    }
+
+    .hero-h2 {
+        font-size: 30px;
+    }
+
+    .hero-p {
+        font-size: 16px;
+    }
+
+    .hero-img {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .button-hero {
+        width: 60%;
+    }
+
+    .text1 {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .text1-text {
+        font-size: 18px;
+    }
+
+    .next-img {
+        width: 80%;
+        height: auto;
+    }
+
+    .button-next {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .low-btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .low-btn1,
+    .low-btn2 {
+        width: 80%;
+    }
+
+    .footer .nav-ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-text {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .img-text {
+        font-size: 24px;
+    }
+
+    .hero-h2 {
+        font-size: 24px;
+    }
+
+    .hero-p {
+        font-size: 14px;
+    }
+
+    .text1-text {
+        font-size: 16px;
+    }
+
+    .next-strong {
+        font-size: 24px;
+    }
+
+    .next-h1 {
+        font-size: 36px;
+    }
+
+    .low-h2 {
+        font-size: 28px;
+    }
+
+    .low-a1,
+    .low-a2 {
+        font-size: 16px;
+    }
+
+    .low-btn1,
+    .low-btn2 {
+        height: 50px;
+    }
+
+    .btn,
+    .button-hero,
+    .button-next {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+}

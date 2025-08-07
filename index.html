@@ -16,7 +16,12 @@
             <div class="nav">
                 <img class="nav-img" src="./img/logo-icon.jpg" alt="site-logo">
                 <p class="img-text">AnsorMed</p>
-                <ul class="nav-ul">
+
+                <div class="nav-toggle" id="navToggle">
+                    &#9776;
+                </div>
+
+                <ul class="nav-ul" id="navMenu">
                     <li>XIZMATLAR</li>
                     <li>DORILAR</li>
                     <li>ASAL</li>
@@ -27,6 +32,7 @@
             </div>
         </div>
     </nav>
+
 
     <!-- MAIN -->
 
@@ -128,6 +134,17 @@
             </div>
         </div>
     </nav>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navToggle = document.getElementById("navToggle");
+            const navMenu = document.getElementById("navMenu");
+
+            navToggle.addEventListener("click", function () {
+                navMenu.classList.toggle("show");
+            });
+        });
+    </script>
 
 
 </body>
